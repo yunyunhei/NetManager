@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">NetManager</string>
+
+    <string name="title_enabled">NetManager (防火墙已启用)</string>
+    <string name="title_disabled">NetManager (防火墙已关闭)</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="fw_opened">防火墙已打开</string>
+    <string name="fw_closed">防火墙已关闭</string>
+
+    <string name="fw_open">打开防火墙</string>
+    <string name="fw_close">关闭防火墙</string>
+
+    <string name="display_log">显示日志</string>
+    <string name="display_rule">显示规则</string>
+
+
+    <string name="navigation_sys_apps">系统APP</string>
+    <string name="navigation_3rd_apps">第三方APP</string>
+
+    <string name="author">胡胧</string>
+    <string name="author_mail">hulong@qq.com</string>
+
+    <string name="mode_header">模式: %s</string>
+
+    <string name="mode">模式:</string>
+
+    <string name="mode_whitelist">白名单(允许选中)</string>
+    <string name="mode_blacklist">黑名单(阻止选中)</string>
+
+    <string name="nav_mode_whitelist">模式:白名单(允许选中)</string>
+    <string name="nav_mode_blacklist">模式:黑名单(阻止选中)</string>
+
+    <string name="toast_bin_installed">二进制文件已安装!</string>
+
+    <string name="working">读取中…</string>
+    <string name="reading_apps">读取安装的程序</string>
+
+
+    <string name="applying_rules">应用iptables规则.</string>
+    <string name="saving_rules">保存iptables规则.</string>
+    <string name="rules_applied">规则应用成功</string>
+    <string name="rules_saved">规则保存成功</string>
+
+    <string name="rules_deleted">规则删除成功</string>
+    <string name="deleting_rules">删除iptables规则.</string>
+
+    <string name="please_wait">请稍等</string>
+</resources>

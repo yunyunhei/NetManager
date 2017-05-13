@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/app_name"
+        tools:ignore="RtlHardcoded"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/app_icon"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap"
+        tools:text="asasdasdasda"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/app_package_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_marginRight="70dp"
+        android:layout_toRightOf="@+id/app_icon"
+        tools:text="asdasdasdasdasdsadasdasdasdasdasd"/>
+
+
+    <CheckBox
+        android:id="@+id/itemcheck_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/itemcheck_3g"/>
+
+    <CheckBox
+        android:id="@+id/itemcheck_3g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

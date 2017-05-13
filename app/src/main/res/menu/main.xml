@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_fw_Settings"
+        android:orderInCategory="100"
+        android:title="@string/fw_open"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_log_settings"
+        android:orderInCategory="100"
+        android:title="@string/display_log"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_rule_settings"
+        android:orderInCategory="100"
+        android:title="@string/display_rule"
+        app:showAsAction="never"/>
+
+</menu>
